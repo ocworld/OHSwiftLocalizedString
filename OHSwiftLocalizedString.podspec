@@ -34,6 +34,8 @@ example) "key".localized
 
   s.source_files = 'OHSwiftLocalizedString/Sources/**/*'
   
+  s.swift_version = '4.1'
+  
   # s.resource_bundles = {
   #   'OHSwiftLocalizedString' => ['OHSwiftLocalizedString/Assets/*.png']
   # }

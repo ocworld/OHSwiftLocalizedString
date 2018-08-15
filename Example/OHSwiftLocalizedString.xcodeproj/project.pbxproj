@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		06D0B60E6EE52B6DD804D6F0 /* Pods_OHSwiftLocalizedString_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OHSwiftLocalizedString_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4281E839C74B6D1335F6C721 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4281E839C74B6D1335F6C721 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4BC9D7B8E1FB5E3DE8A7D00F /* Pods-OHSwiftLocalizedString_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OHSwiftLocalizedString_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-OHSwiftLocalizedString_Example/Pods-OHSwiftLocalizedString_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* OHSwiftLocalizedString_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OHSwiftLocalizedString_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,10 +42,10 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		84964CC5144FD3A7CC8B2538 /* Pods-OHSwiftLocalizedString_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OHSwiftLocalizedString_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OHSwiftLocalizedString_Tests/Pods-OHSwiftLocalizedString_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8A28C1F2EA4908312A0420DD /* OHSwiftLocalizedString.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = OHSwiftLocalizedString.podspec; path = ../OHSwiftLocalizedString.podspec; sourceTree = "<group>"; };
+		8A28C1F2EA4908312A0420DD /* OHSwiftLocalizedString.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OHSwiftLocalizedString.podspec; path = ../OHSwiftLocalizedString.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F69034E8333D86FC6E5284C /* Pods-OHSwiftLocalizedString_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OHSwiftLocalizedString_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OHSwiftLocalizedString_Example/Pods-OHSwiftLocalizedString_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C4FF0DC910C0D78EF468BE1E /* Pods_OHSwiftLocalizedString_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OHSwiftLocalizedString_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB0B627906AEB8CBFD0E9C23 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FB0B627906AEB8CBFD0E9C23 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		FBF351765D96C259E88159B2 /* Pods-OHSwiftLocalizedString_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OHSwiftLocalizedString_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OHSwiftLocalizedString_Tests/Pods-OHSwiftLocalizedString_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -207,7 +207,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
@@ -377,12 +377,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -430,12 +432,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;

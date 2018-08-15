@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'OHSwiftLocalizedString_Example' do
+  pod 'OHSwiftLocalizedString', :path => '../'
+
+  target 'OHSwiftLocalizedString_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

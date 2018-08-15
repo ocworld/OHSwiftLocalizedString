@@ -22,7 +22,7 @@ pod 'OHSwiftLocalizedString'
 
 ## Author
 
-ocworld, ocworld@users.noreply.github.com
+Keunhyun Oh, ocworld@gmail.com
 
 ## License
 

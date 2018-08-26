@@ -13,8 +13,8 @@ extension String {
         return NSLocalizedString(self, comment: "")
     }
     
-    public func localized(tableName: String? = default, bundle: Bundle = default, value: String = default, comment: String = "") -> String {
-        return NSLocalizedString(self, tableName: String? = default, bundle: Bundle = default, value: String = default, comment: String = "")
+    public func localized(tableName: String? = nil, bundle: Bundle = Bundle.main, value: String = "", comment: String = "") -> String {
+        return NSLocalizedString(self, tableName: tableName, bundle: bundle, value: value, comment: comment)
     }
     
 }

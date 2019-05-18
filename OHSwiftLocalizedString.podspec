@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OHSwiftLocalizedString'
-  s.version          = '0.2.1'
+  s.version          = '5.0'
   s.summary          = 'String extension for localization'
 
 # This description is used to generate tags and improve search results.
@@ -34,7 +34,7 @@ example) "key".localized
 
   s.source_files = 'OHSwiftLocalizedString/Sources/**/*'
   
-  s.swift_version = '4.2'
+  s.swift_version = '5.0'
   
   # s.resource_bundles = {
   #   'OHSwiftLocalizedString' => ['OHSwiftLocalizedString/Assets/*.png']
